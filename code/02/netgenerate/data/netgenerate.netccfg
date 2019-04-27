@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+
+    <general>
+        <sumo-net-file value="grid.net.xml"/>
+        <output-file value="grid.tls.net.xml"/>
+    </general>
+    
+    <tls>
+        <tls.set value="0,1,2,3,4"/>
+    </tls>
+</configuration>

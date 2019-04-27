@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+
+    <general>
+        <default.lanenumber value="3"/>
+        <numerical-ids value="true"/>
+        <output-file value="grid.net.xml"/>
+    </general>
+
+    <grid_network>
+        <grid value="true"/>
+        <grid.number value="10"/>
+        <grid.length value="400"/>
+        <grid.attach-length value="200"/>
+    </grid_network>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+    
+</configuration>

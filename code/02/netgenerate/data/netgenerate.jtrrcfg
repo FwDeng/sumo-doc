@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+
+    <input>
+        <net-file value="grid.tls.net.xml"/>
+        <route-files value="flows.xml"/>
+    </input>
+
+    <output>
+        <output-file value="routes.xml"/>
+    </output>
+
+    <processing>
+        <turn-defaults value="25,50,25"/>
+        <accept-all-destinations value="true"/>
+        <allow-loops value="true"/>
+    </processing>
+
+</configuration>

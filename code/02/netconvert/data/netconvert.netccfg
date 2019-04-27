@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+
+    <general>
+        <osm-files value="map.osm.xml"/>
+        <output-file value="map.net.xml"/>
+    </general>
+
+    <tls>
+        <geometry.remove value="true"/>
+        <junctions.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.discard-simple value="true">
+        <tls.join value="true"/>
+    </tls>
+    
+</configuration>
